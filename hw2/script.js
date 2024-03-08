@@ -52,7 +52,7 @@ function mouseUpHandler(e)
 }
 
 // 更新畫布
-function draw(e) 
+function draw() 
 {	
   drawBall();
   requestAnimationFrame(draw);
