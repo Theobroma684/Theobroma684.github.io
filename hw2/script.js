@@ -23,6 +23,7 @@ function keyDownHandler(e)
   else if(e.key == "ArrowUp")      y -= dy;
   else if(e.key == "ArrowDown")    y += dy;
 }*/
+
 // TODO: 滑鼠移動(mousemove)時觸發，改變位置(x, y)為滑鼠目前位置(e.clientX, e.clientY)
 // ...
 document.addEventListener("mousemove", mouseMoveHandler);
