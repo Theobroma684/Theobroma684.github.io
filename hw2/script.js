@@ -55,6 +55,9 @@ function mouseUpHandler(e)
 // 更新畫布
 function draw() 
 {	
+  if ("keydown"){
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  }
   drawBall();
   requestAnimationFrame(draw);
 }
