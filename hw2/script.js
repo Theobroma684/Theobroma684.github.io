@@ -23,13 +23,6 @@ function keyDownHandler(e)
   else if(e.key == "ArrowUp")      y -= dy;
   else if(e.key == "ArrowDown")    y += dy;
 }*/
-document.addEventListener("keydown", keyDownHandler);
-function keyDownHandler(e) 
-{
-   if(e.key == "ArrowRight"){        
-     ctx.clearRect(0, 0, canvas.width, canvas.height);
-   }
-}
 // TODO: 滑鼠移動(mousemove)時觸發，改變位置(x, y)為滑鼠目前位置(e.clientX, e.clientY)
 // ...
 document.addEventListener("mousemove", mouseMoveHandler);
