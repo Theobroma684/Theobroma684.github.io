@@ -53,9 +53,8 @@ function mouseUpHandler(e)
 }
 
 // 更新畫布
-function draw() 
+/*function draw() 
 {	
   drawBall();
   requestAnimationFrame(draw);
-}
-draw();
+}*/
